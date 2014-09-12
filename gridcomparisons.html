@@ -1,0 +1,1532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grid Comparisons</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="page-header">
+            <h1>Grid comparisons</h1>
+            <p class="lead">Basic grid comparisons</p>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                    Cut, Copy, Paste to/from Excel
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <div class="panel panel-primary">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ng-Grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-success">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Handson table</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <strong>Yes</strong>
+                                        Cut, Copy, Paste using standard shortcuts ( Control + X, Control + C, Control + V) are supported. However, doing these actions using a context menu is not supported. 
+
+                                        If we specify a height to the table(which will enable scrollbar for excel), it is supporting 5000 rows. But, with 1 million rows (maximum possible), the page is broken.
+
+                                        If we don't specify a height, even 5000 rows is not supported.
+
+
+                                        In short, 5000 rows are also supported.
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-info">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ember table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-warning">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Slickgrid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="panel panel-danger">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Kendo UI grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                    Cut, Copy, Paste to/from between grids in V5
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="panel panel-primary">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ng-Grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-success">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Handson table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-info">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ember table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-warning">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Slickgrid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="panel panel-danger">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Kendo UI grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                    Custom editors/renderers (choosers, date fields, buttons, amount fields, etc)
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="panel panel-primary">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ng-Grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-success">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Handson table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-info">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ember table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-warning">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Slickgrid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="panel panel-danger">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Kendo UI grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                                    Keyboard navigation using tab, arrow keys, page up/down – skip disabled cells
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="panel panel-primary">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ng-Grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-success">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Handson table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-info">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ember table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-warning">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Slickgrid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="panel panel-danger">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Kendo UI grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                                    Keyboard shortcuts for cut/copy/paste, add row, split, etc.
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseFive" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="panel panel-primary">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ng-Grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-success">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Handson table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-info">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ember table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-warning">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Slickgrid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="panel panel-danger">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Kendo UI grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+                                    Resizable Columns
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseSix" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="panel panel-primary">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ng-Grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-success">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Handson table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-info">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ember table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                        <strong>Yes</strong>
+                                        This is a built-int feature. Ember.Table.ColumnDefinition Options has "isResizable" boolean property
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-warning">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Slickgrid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="panel panel-danger">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Kendo UI grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
+                                    ability to prevent resizing of columns
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseSeven" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="panel panel-primary">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ng-Grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-success">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Handson table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-info">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ember table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-warning">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Slickgrid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="panel panel-danger">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Kendo UI grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseEight">
+                                    Sortable Columns
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseEight" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="panel panel-primary">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ng-Grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-success">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Handson table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-info">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ember table</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <strong>Yes</strong>
+                                        This is a built-int feature. Ember.Table.ColumnDefinition Options has "isSortable" boolean property
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-warning">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Slickgrid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="panel panel-danger">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Kendo UI grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseNine">
+                                    Advanced sorting: CTRL + click column heaaders to sort on multiple columns
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseNine" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="panel panel-primary">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ng-Grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-success">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Handson table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-info">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ember table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-warning">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Slickgrid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="panel panel-danger">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Kendo UI grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTen">
+                                    Ability to select a single cell or multiple cells with keyboard or mouse
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseTen" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="panel panel-primary">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ng-Grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-success">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Handson table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-info">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ember table</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <strong>No</strong> Right now only single row selection with mouse only possible.We have to write extensions for other features.
+
+                                        There is a pull request available for this change. 
+                                        https://github.com/Addepar/ember-table/pull/86
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-warning">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Slickgrid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="panel panel-danger">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Kendo UI grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseEleven">
+                                    Context menu – cut/copy/paste/add row/delete row/select all
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseEleven" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="panel panel-primary">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ng-Grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-success">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Handson table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-info">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ember table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-warning">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Slickgrid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="panel panel-danger">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Kendo UI grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwelve">
+                                    Disable row, column, or individual cell
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwelve" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="panel panel-primary">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ng-Grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-success">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Handson table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-info">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ember table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-warning">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Slickgrid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="panel panel-danger">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Kendo UI grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThirteen">
+                                    Cell colors to indicate error/warning/change.
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseThirteen" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="panel panel-primary">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ng-Grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-success">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Handson table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-info">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ember table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-warning">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Slickgrid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="panel panel-danger">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Kendo UI grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFourteen">
+                                    Split or merge cells
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseFourteen" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="panel panel-primary">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ng-Grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-success">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Handson table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-info">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ember table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-warning">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Slickgrid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="panel panel-danger">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Kendo UI grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFifteen">
+                                    Dupe down - duplicate a row into a new row below the current row
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseFifteen" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="panel panel-primary">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ng-Grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-success">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Handson table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-info">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ember table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-warning">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Slickgrid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="panel panel-danger">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Kendo UI grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseSixteen">
+                                    Ability to hide columns
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseSixteen" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="panel panel-primary">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ng-Grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-success">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Handson table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-info">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ember table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-warning">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Slickgrid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="panel panel-danger">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Kendo UI grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeventeen">
+                                    Move focus out of grid to next component with keystroke
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseSeventeen" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="panel panel-primary">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ng-Grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-success">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Handson table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-info">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ember table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-warning">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Slickgrid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="panel panel-danger">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Kendo UI grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseEighteen">
+                                    Support for tree data structures (Role setup, Report Template)
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseEighteen" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="panel panel-primary">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ng-Grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-success">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Handson table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-info">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ember table</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                           <strong>Yes</strong>
+
+                                        However, this is not something we can add through configuration. We have to write custom templates for tree structure. You can see a sample implementation in the following link
+                                        <a href="http://addepar.github.io/#/ember-table/financial" target="_blank">http://addepar.github.io/#/ember-table/financial</a></div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-warning">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Slickgrid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="panel panel-danger">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Kendo UI grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseNineteen">
+                                    Drag & drop to and from lists & grids (Account Config)
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseNineteen" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="panel panel-primary">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ng-Grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-success">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Handson table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-info">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ember table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-warning">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Slickgrid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="panel panel-danger">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Kendo UI grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwenty">
+                                    Custom shortcuts
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwenty" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="panel panel-primary">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ng-Grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-success">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Handson table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-info">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ember table</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="panel panel-warning">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Slickgrid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="panel panel-danger">
+
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Kendo UI grid</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+</html>
